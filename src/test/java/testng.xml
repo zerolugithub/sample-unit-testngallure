@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!-- Suite对应测试套件,一个Suite可以有多个Test -->
+<suite name="TestAll">
+	<!-- Test对应一个测试用例,里面可包含多个测试Class -->
+	<test name="EmailTest">
+		<classes>
+			<class name="com.kitty.demo.TestNGAllure.HelloTest">
+			</class>
+		</classes>
+	</test>
+</suite>
